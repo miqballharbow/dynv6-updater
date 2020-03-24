@@ -19,5 +19,5 @@ else
   exit 1
 fi
 
-$bin "http://ipv4.dynv6.com/api/update?hostname=$hostname&ipv4=$v4_address&token=$token" > ~/dynv6/dynv6.log
+$bin "http://ipv4.dynv6.com/api/update?hostname=$hostname&ipv4=$v4_address&token=$token" > ~/dynv6-updater/dynv6.log
 
